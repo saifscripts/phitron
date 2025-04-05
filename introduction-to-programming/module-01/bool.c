@@ -10,6 +10,6 @@ int main ()
     printf("%f\n", isGood); // 0.000000
     printf("%f\n", isBad); // 0.000000
     printf("%c\n", isGood); // 
-    printf("%c", isBad); // NUL character
+    printf("%c", isBad); // NUL character 
     return 0;
 }
