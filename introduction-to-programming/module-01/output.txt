@@ -1,1 +1,3 @@
-636
+integer: 5
+float: 1.1
+character: c
