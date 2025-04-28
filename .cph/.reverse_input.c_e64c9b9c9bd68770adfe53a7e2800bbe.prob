@@ -1,1 +1,0 @@
-{"name":"Local: reverse_input","url":"c:\\Users\\saifs\\phitron\\reverse_input.c","tests":[{"id":1745850126353,"input":"1 2","output":"2 1"},{"id":1745850134710,"input":"5 9","output":"9 5"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\saifs\\phitron\\reverse_input.c","group":"local","local":true}
