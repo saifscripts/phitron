@@ -1,1 +1,0 @@
-{"name":"Local: Remove_Value_From_Array","url":"c:\\Users\\Saif\\phitron\\Remove_Value_From_Array.c","tests":[{"id":1745075799501,"input":"6\n1 5 4 3 2 4\n1","output":"1 4 3 2 4"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\Saif\\phitron\\Remove_Value_From_Array.c","group":"local","local":true}

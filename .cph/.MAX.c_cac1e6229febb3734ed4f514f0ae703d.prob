@@ -1,1 +1,0 @@
-{"name":"Local: MAX","url":"c:\\Users\\saifs\\phitron\\MAX.c","tests":[{"id":1744897193842,"input":"10\n547 5 64 896 58 65 1 78 9654 -1","output":"9654"},{"id":1744897245535,"input":"3\n-3 -5 0","output":"0"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\saifs\\phitron\\MAX.c","group":"local","local":true}
