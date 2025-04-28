@@ -1,0 +1,1 @@
+{"name":"Local: pos_neg","url":"c:\\Users\\saifs\\phitron\\pos_neg.c","tests":[{"id":1745850494962,"input":"0","output":"ZERO"},{"id":1745850502391,"input":"5","output":"POSITIVE"},{"id":1745850509200,"input":"-4","output":"NEGATIVE"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\saifs\\phitron\\pos_neg.c","group":"local","local":true}
