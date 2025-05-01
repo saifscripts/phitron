@@ -3,16 +3,17 @@
 int main()
 {
     char c;
-
     scanf("%c", &c);
 
-    if (c + 1 > 122)
+    if (c == 122)
     {
-        printf("%c", c - 25);
+        c = 97;
     }
     else
     {
-        printf("%c", c + 1);
+        c++;
     }
+
+    printf("%c", c);
     return 0;
 }
