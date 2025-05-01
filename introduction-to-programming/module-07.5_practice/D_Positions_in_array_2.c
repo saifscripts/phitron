@@ -9,11 +9,11 @@ int main()
 
     for (int i = 0; i < n; i++)
     {
-        scanf("%d", &a[n]);
+        scanf("%d", &a[i]);
 
-        if (a[n] <= 10)
+        if (a[i] <= 10)
         {
-            printf("A[%d] = %d\n", i, a[n]);
+            printf("A[%d] = %d\n", i, a[i]);
         }
     }
     return 0;
