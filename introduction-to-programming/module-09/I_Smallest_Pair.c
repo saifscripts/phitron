@@ -19,9 +19,9 @@ int main()
 
         for (int i = 1; i < n; i++)
         {
-            for (int j = 2; i <= n; j++)
+            for (int j = i + 1; j <= n; j++)
             {
-                int sum = a[i] + a[j] + j - i;
+                int sum = a[i - 1] + a[j - 1] + j - i;
                 if (sum < min)
                 {
                     min = sum;
