@@ -2,6 +2,7 @@
   "files.associations": {
     "*.embeddedhtml": "html",
     "stdlib.h": "c",
-    "POSITIVE_NEGATIVE.C": "cpp"
+    "POSITIVE_NEGATIVE.C": "cpp",
+    "cmath": "c"
   }
 }
