@@ -11,17 +11,6 @@ public:
     string name;
     char section;
     int total_marks;
-
-    Student(int id,
-            string name,
-            char section,
-            int total_marks)
-    {
-        this->id = id;
-        this->name = name;
-        this->section = section;
-        this->total_marks = total_marks;
-    }
 };
 
 int main()
@@ -32,31 +21,15 @@ int main()
     for (int i = 0; i < t; i++)
     {
 
-        // fill out dummy data
-        Student s[3] = {Student(1, "lsjdf", 'a', 5), Student(1, "lsjdf", 'a', 5), Student(1, "lsjdf", 'a', 5)};
+        Student s[3];
+        Student highest;
+        highest.total_marks = INT_MIN;
 
         for (int j = 0; j < 3; j++)
         {
-            int id;
-            string name;
-            char section;
-            int total_marks;
-
-            cin >> id >> name >> section >> total_marks;
-            Student st(id, name, section, total_marks);
-            s[j] = st;
-        }
-
-        Student highest = s[0];
-
-        if (s[0].total_marks < s[1].total_marks)
-        {
-            highest = s[1];
-        }
-
-        if (highest.total_marks < s[2].total_marks)
-        {
-            highest = s[2];
+            cin >> s[j].id >> s[j].name >> s[j].section >> s[j].total_marks;
+            if (s[j].total_marks > highest.total_marks)
+                highest = s[j];
         }
 
         cout << highest.id << " " << highest.name << " " << highest.section << " " << highest.total_marks << endl;
